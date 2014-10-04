@@ -44,7 +44,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#experience">Experience</a>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#a100">A100</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -72,30 +75,75 @@
         </div>
     </header>
 
-    <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About</h2>
                 <img src="img/nicole-portrait.jpg" class="portrait" />
-                <p>Computer Scientist<br />
-                Front end web developer<br />
-                   Software engineer in the making</p>
-
+                <p>
+                    Computer Scientist from <a href="http://www.SouthernCT.edu" target="_blank">SCSU</a>;<br />
+                    Front end web developer @ <a href="http://drinkcaffeine.com" target="_blank">drinkcaffeine</a>;<br />
+                    Software engineer in the making;<br />
+                    Loves hackathons & all things tech
                 </p>
+
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="experience" class="content-section text-center">
-        <div class="download-section">
+    <section id="projects" class="content-section text-center">
+        <div class="projects-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Experience</h2>
-                    
-                    
-                      </div>
+                <h2>Projects</h2>
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <h3>NEURONWeb</h3>
+                        <div class="neuron-img">
+                        </div>
+                        <p>
+                            <p>Created dynamic & entendable jQueryUI interface for <a target="_blank" href="http://www.neuron.yale.edu/neuron/">NEURON</a>, a simulator for neurons and networks.</p>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Pebble Compass</h3>
+                        <div class="compass-img">
+                        </div>
+                        <p>
+                            App transfers compass information from Android phone to a Pebble smartwatch.
+                            <br />
+                            <a href="https://play.google.com/store/apps/details?id=pebblecompass.example.app">Play Store</a>
+                            <a href="https://github.com/silicaRich/pebble-compass">GitHub Repo</a>
+                            <a href="https://apps.getpebble.com/applications/53a799768eaa2a00040000b3">Pebble Store</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>TravelVR</h3>
+                        <div class="travelVR-img">
+                        </div>
+                        <p>Built using Unity and Oculus DK, TravelVR allows the user to freely roam around any location on Google Maps Streetview in 360 degrees.</p>
+                        <p><a class="btn btn-default" href="http://challengepost.com/software/travelvr" role="button">Challengepost Submission &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- A100 Section -->
+    <section id="a100" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>I'm an A100 Graduate
+                <p>What does that mean?</p></h2>
+                 <a href="http://indie-soft.com/a100/" target="_blank"  alt="A100, Accelerating Connecticut's Startup Careers."><img src="img/a100Logo.png" class="float-left a100logo" alt="A100, Accelerating Connecticut's Startup Careers."/></a>
+                <p>
+                    <a href="http://indie-soft.com/a100/" target="_blank">Apprentice100, or A100,</a> 
+                    is a program in New Haven, Connecticut, dedicated to accelerating technology students towards their careers. <br />
+                    Graduates of the program interview with and work for local startups, which fosters innovation and local businesses to grow.<br />
+                   A100 helped me start in the field of web development. For more infomation or to apply for an apprenticeship, please click <a href="http://indie-soft.com/a100/" target="_blank">here.</a>
+                </p>
+
             </div>
         </div>
     </section>
@@ -104,20 +152,24 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <h2>Get In Touch</h2>
+                <p>Thanks for visiting my website! I'd love to hear from you about interesting projects, startups, or simply to talk.</p>
                 <p>
-                    <a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                    <a href="mailto:nicole.flokos@gmail.com">Nicole.Flokos@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
+                        <a href="https://www.linkedin.com/profile/view?id=200189598&authType=name&authToken=gCym&locale=en_US&pvs=pp&trk=ppro_viewmore" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
+                        <a href="https://twitter.com/silicarich" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">Google+</span></a>
+                        <a href="https://github.com/silicaRich/" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/nicole.flokos"  target="_blank">
+                            <i class="fa fa-facebook-square fa-fw"></i></a>
                     </li>
                 </ul>
             </div>

@@ -109,24 +109,23 @@ a {
         }
 
 @media (min-width:767px) {
-    .navbar{
-    padding: 20px 0;
-    border-bottom: 0;
-    letter-spacing: 1px;
-    background: 0 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
-}
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
 
-.top-nav-collapse {
-    padding: 0;
-}
+    .top-nav-collapse {
+        padding: 0;
+    }
 
-.navbar-custom.top-nav-collapse {
-    /*border-bottom: 1px solid rgba(255,255,255,.3);*/
-}
-
+    .navbar-custom.top-nav-collapse {
+        /*border-bottom: 1px solid rgba(255,255,255,.3);*/
+    }
 }
 
 .intro {
@@ -374,11 +373,11 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
     background: rgb(242, 171, 171);
-background: -moz-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -webkit-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -o-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -ms-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: linear-gradient(105deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -moz-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -webkit-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -o-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -ms-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: linear-gradient(105deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
 }
 
 .overlay {
@@ -473,4 +472,74 @@ img.portrait {
     -moz-border-radius: 100%;
     border-radius: 100%;
     margin-bottom: 35px;
+}
+
+
+/* PROJECTS SECTION */
+
+div.neuron-img {
+    height: 300px;
+    background-image: url("../img/NeuronWeb2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: background-image 1s ease-in-out;
+}
+
+div.neuron-img:hover {
+    background-image: url("../img/NeuronWeb1.png");
+    transition: background-image 1s ease-in-out;
+    /*background-size: 68%;
+    background-position: 50%;*/
+}
+
+
+div.compass-img {
+    height: 300px;
+    background-image: url("../img/PebbleCompass1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: background-image 1s ease-in-out;
+}
+
+/*div.compass-img:hover {
+    background-image: url("../img/PebbleCompass2.png");
+    transition: background-image 1s ease-in-out;
+    /*background-size: 68%;
+    background-position: 50%;
+}*/
+
+div.travelVR-img {
+    height: 300px;
+    background-image: url("../img/TravelVR1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: background-image 1s ease-in-out;
+}
+
+div.travelVR-img:hover {
+    background-image: url("../img/TravelVR2.png");
+    transition: background-image 1s ease-in-out;
+    /*background-size: 68%;
+    background-position: 50%;*/
+}
+
+.float-left {
+float: left;
+width: 300px;
+}
+
+img.a100-logo {
+width: 300px;
+}
+
+#a100 p {
+
+text-align:left;}
+#a100 h2 p {
+    text-align: center;
+}
+
+
+.banner-social-buttons {
+    font-size: 50px;
 }
