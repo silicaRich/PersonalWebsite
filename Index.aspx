@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Nicole Flokos</title>
+    <title>Portfolio for Nicole Flokos</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -58,106 +58,131 @@
         </div>
         <!-- /.container -->
     </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Nicole Flokos</h1>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+    <div class="wrapper-parallax">
+        <div class="content">
+            <!-- Intro Header -->
+            <header class="intro">
+                <div class="intro-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h1 class="brand-heading">Nicole Flokos</h1>
+                                <a href="#about" class="btn  btn-padding btn-circle page-scroll">
+                                    <i class="fa fa-chevron-down animated"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </header>
+            </header>
 
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About</h2>
-                <img src="img/nicole-portrait.jpg" class="portrait" />
-                <p>
-                    Computer Scientist from <a href="http://www.SouthernCT.edu" target="_blank">SCSU</a>;<br />
-                    Front end web developer @ <a href="http://drinkcaffeine.com" target="_blank">drinkcaffeine</a>;<br />
-                    Software engineer in the making;<br />
-                    Loves hackathons & all things tech
-                </p>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="content-section text-center">
-        <div class="projects-section">
-            <div class="container">
-                <h2>Projects</h2>
+            <section id="about" class="container content-section text-center">
                 <div class="row">
-
-                    <div class="col-md-4">
-                        <h3>NEURONWeb</h3>
-                        <div class="neuron-img">
-                        </div>
-                        <p>
-                            <p>Created dynamic & entendable jQueryUI interface for <a target="_blank" href="http://www.neuron.yale.edu/neuron/">NEURON</a>, a simulator for neurons and networks.</p>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>About</h2>
+                        <p class="about-info">
+                            Computer Scientist from <a href="http://www.SouthernCT.edu" target="_blank">SCSU</a><br />
+                            Front end web developer @ <a href="http://drinkcaffeine.com" target="_blank">drinkcaffeine</a><br />
+                            Software engineer in the making<br />
+                            Loves hackathons & all things tech
+                <a class="btn main-cta btn-default page-scroll" a href="#projects" role="button">See Projects</a>
                         </p>
+                        <img src="img/nicole-portrait.jpg" class="portrait" />
                     </div>
-                    <div class="col-md-4">
-                        <h3>Pebble Compass</h3>
-                        <div class="compass-img">
-                        </div>
-                        <p>
-                            App transfers compass information from Android phone to a Pebble smartwatch.
+                </div>
+            </section>
+
+            <section id="projects" class="content-section text-center">
+                <div class="projects-section">
+                    <div class="container">
+                        <h2>Projects</h2>
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <h3>NEURONWeb</h3>
+                                <div class="neuron-img">
+                                </div>
+                                <p>
+                                    <p>Created dynamic & entendable jQueryUI interface for <a target="_blank" href="http://www.neuron.yale.edu/neuron/">NEURON</a>, a simulator for neurons and networks.</p>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Pebble Compass</h3>
+                                <div class="compass-img">
+                                </div>
+                                <p>
+                                    App transfers compass information from Android phone to a Pebble smartwatch.
                             <br />
-                            <a href="https://play.google.com/store/apps/details?id=pebblecompass.example.app">Play Store</a>
-                            <a href="https://github.com/silicaRich/pebble-compass">GitHub Repo</a>
-                            <a href="https://apps.getpebble.com/applications/53a799768eaa2a00040000b3">Pebble Store</a>
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>TravelVR</h3>
-                        <div class="travelVR-img">
+                                    <a href="https://play.google.com/store/apps/details?id=pebblecompass.example.app">Play Store</a>
+                                    <a href="https://github.com/silicaRich/pebble-compass">GitHub Repo</a>
+                                    <a href="https://apps.getpebble.com/applications/53a799768eaa2a00040000b3">Pebble Store</a>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>TravelVR</h3>
+                                <div class="travelVR-img">
+                                </div>
+                                <p>Built using Unity and Oculus DK, TravelVR allows the user to freely roam around any location on Google Maps Streetview in 360 degrees.</p>
+                                <p><a class="btn btn-default" href="http://challengepost.com/software/travelvr" role="button">Challengepost Submission &raquo;</a></p>
+                            </div>
                         </div>
-                        <p>Built using Unity and Oculus DK, TravelVR allows the user to freely roam around any location on Google Maps Streetview in 360 degrees.</p>
-                        <p><a class="btn btn-default" href="http://challengepost.com/software/travelvr" role="button">Challengepost Submission &raquo;</a></p>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-    </section>
+                <a href="#a100" class="btn btn-circle btn-padding page-scroll">
+                    <i class="fa fa-chevron-down animated"></i>
+                </a>
+            </section>
+       
 
     <!-- A100 Section -->
-    <section id="a100" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>I'm an A100 Graduate
-                <p>What does that mean?</p></h2>
-                 <a href="http://indie-soft.com/a100/" target="_blank"  alt="A100, Accelerating Connecticut's Startup Careers."><img src="img/a100Logo.png" class="float-left a100logo" alt="A100, Accelerating Connecticut's Startup Careers."/></a>
-                <p>
-                    <a href="http://indie-soft.com/a100/" target="_blank">Apprentice100, or A100,</a> 
-                    is a program in New Haven, Connecticut, dedicated to accelerating technology students towards their careers. <br />
-                    Graduates of the program interview with and work for local startups, which fosters innovation and local businesses to grow.<br />
-                   A100 helped me start in the field of web development. For more infomation or to apply for an apprenticeship, please click <a href="http://indie-soft.com/a100/" target="_blank">here.</a>
-                </p>
+        <section id="a100" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>I'm an A100 Graduate
+                <p>What does that mean?</p>
+                    </h2>
+                    <a href="http://indie-soft.com/a100/" target="_blank" alt="A100, Accelerating Connecticut's Startup Careers.">
+                        <img src="img/a100Logo.png" class="float-left a100logo" alt="A100, Accelerating Connecticut's Startup Careers." /></a>
+                    <p>
+                        <a href="http://indie-soft.com/a100/" target="_blank">Apprentice100, or A100,</a>
+                        is a tuition-free program in New Haven, Connecticut, dedicated to accelerating technology students towards their careers.
+                    </p>
+                    <p>
+                        Graduates of the program interview with and work for local startups, which fosters innovation and local businesses to grow.<br />
+                        A100 helped me start in the field of web development. For more infomation or to apply for an apprenticeship, please click <a href="http://indie-soft.com/a100/" target="_blank">here.</a>
+                    </p>
 
+                </div>
             </div>
-        </div>
-    </section>
+            <%--        <a href="#contact" class="btn btn-circle btn-padding page-scroll">
+                            <i class="fa fa-chevron-down animated"></i>
+        </a>--%>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Get In Touch</h2>
-                <p>Thanks for visiting my website! I'd love to hear from you about interesting projects, startups, or simply to talk.</p>
-                <p>
-                    <a href="mailto:nicole.flokos@gmail.com">Nicole.Flokos@gmail.com</a>
-                </p>
+        <!-- Contact Section -->
+        <section id="contact" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Get In Touch</h2>
+                    <p>
+                        Thanks for visiting my website! I'd love to hear from you about interesting projects, startups, or simply to talk.
+                        <a href="mailto:nicole.flokos@gmail.com?Subject=Hi,%20Nicole"><i class="fa fa-envelope fa-fw"></i></a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="container text-center">
+
                 <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="mailto:nicole.flokos@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
+                    </li>
                     <li>
                         <a href="https://www.linkedin.com/profile/view?id=200189598&authType=name&authToken=gCym&locale=en_US&pvs=pp&trk=ppro_viewmore" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
                     </li>
@@ -168,23 +193,19 @@
                         <a href="https://github.com/silicaRich/" target="_blank"><i class="fa fa-github fa-fw"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/nicole.flokos"  target="_blank">
-                            <i class="fa fa-facebook-square fa-fw"></i></a>
+                        <a href="https://www.facebook.com/nicole.flokos" target="_blank"><i class="fa fa-facebook-square fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/or0genesis" target="_blank">
+                            <i class="fa fa-instagram fa-fw"></i></a>
                     </li>
                 </ul>
+                <%--     <p>2014 Nicole Flokos</p>--%>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>&copy; Nicole Flokos 2014</p>
-        </div>
-    </footer>
+        <!-- Parallax Wrapper -->
+    </div>
 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.min.js"></script>

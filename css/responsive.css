@@ -1,5 +1,16 @@
 ﻿@media (min-width:1920px) {
-  #about.content-section {
-padding: 200px 0;
+#about.content-section {
+padding: 500px 0;
+padding-top: 100px;
 }
+
+    #about > div {
+        margin-top: 16%;
+    }
+
+
+    section#a100 {
+        padding: 200px 0;
+    }
+
 }

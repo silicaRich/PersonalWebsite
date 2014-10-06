@@ -44,7 +44,7 @@ p {
 }
 
 a {
-    color: #219ab3;
+    color: #945763;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -53,7 +53,7 @@ a {
     a:hover,
     a:focus {
         text-decoration: none;
-        color: #11505d;
+        color: #B45C5C;
     }
 
 .light {
@@ -124,7 +124,8 @@ a {
     }
 
     .navbar-custom.top-nav-collapse {
-        /*border-bottom: 1px solid rgba(255,255,255,.3);*/
+       border-bottom: 1px solid rgba(255,255,255,.3);
+       background:rgba(255,255,255,.5);
     }
 }
 
@@ -297,18 +298,17 @@ a {
     transition: all .3s ease-in-out;
 }
 
-.btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
-    background-color: transparent;
+.btn-default {border: 1px solid #945763;
+color: #945763;
+background-color: transparent;
 }
 
     .btn-default:hover,
     .btn-default:focus {
-        border: 1px solid #219ab3;
+        border: 1px solid #945763;
         outline: 0;
-        color: #000;
-        background-color: #219ab3;
+        color: #fff;
+        background-color: #945763;
     }
 
 ul.banner-social-buttons {
@@ -371,13 +371,13 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
-    background: rgb(242, 171, 171);
-    background: -moz-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-    background: -webkit-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-    background: -o-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-    background: -ms-linear-gradient(15deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-    background: linear-gradient(105deg, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+webkit-tap-highlight-color: rgba(255,255,255,.2);
+background: rgb(242, 171, 171);
+background: -moz-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+background: -webkit-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+background: -o-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+background: -ms-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+background: linear-gradient(100%, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
 }
 
 .overlay {
@@ -472,6 +472,46 @@ img.portrait {
     -moz-border-radius: 100%;
     border-radius: 100%;
     margin-bottom: 35px;
+    -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+display: inline-block;
+vertical-align: bottom;
+margin-bottom: 0;
+}
+
+ img.portrait, .a100logo{
+
+    -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+-webkit-transition: all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+    }
+
+    img.portrait:hover, .a100logo:hover {
+    
+    -webkit-filter: initial;
+-moz-filter:initial;
+filter: initial;
+-webkit-transition: all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+    }
+
+
+.main-cta {
+    display: block;
+margin-left: auto;
+margin-top: 20px;
+width: 227px;
+}
+
+.about-info {
+    display: inline-block;
+    text-align: right;
+    margin-right: 22px;
 }
 
 
@@ -500,6 +540,8 @@ div.compass-img {
     background-size: contain;
     transition: background-image 1s ease-in-out;
 }
+
+
 
 /*div.compass-img:hover {
     background-image: url("../img/PebbleCompass2.png");
@@ -531,9 +573,11 @@ width: 300px;
 img.a100-logo {
 width: 300px;
 }
-
+#a100 > div > div > p:nth-child(3){
+    margin-bottom: 5px;
+}
 #a100 p {
-
+    text-indent:20px;
 text-align:left;}
 #a100 h2 p {
     text-align: center;
@@ -542,4 +586,49 @@ text-align:left;}
 
 .banner-social-buttons {
     font-size: 50px;
+}
+
+.btn-padding {
+padding:4px 9px 0px 12px;
+}
+
+.projects-section h3 {
+    margin-bottom: 0;
+}
+
+
+.projects-section h2 {
+margin-bottom:75px;
+}
+
+    .projects-section h3:first-child {
+        margin-bottom: 30px;
+    }
+
+
+    /*~~~~~~~~~~~~~~ PARALLAX FOOTER ~~~~~~~~~~~*/
+
+    
+body {
+    margin: 0;
+}
+
+.wrapper-parallax {
+    margin-bottom: 60px;
+}
+.content {
+    position: relative;
+    z-index: 10;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+    background: white;
+    min-height: 500px;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    background: green;
+    height: 60px;
 }
