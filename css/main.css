@@ -136,7 +136,6 @@ a {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    /*    background-color: #336667;*/
     background: url(../img/bg.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -372,12 +371,6 @@ img::-moz-selection {
 
 body {
 webkit-tap-highlight-color: rgba(255,255,255,.2);
-background: rgb(242, 171, 171);
-background: -moz-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -webkit-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -o-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -ms-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: linear-gradient(100%, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
 }
 
 .overlay {
@@ -614,15 +607,22 @@ body {
 }
 
 .wrapper-parallax {
-    margin-bottom: 60px;
+    margin-bottom: 300px;
 }
 .content {
-    position: relative;
+    /*position: relative;
     z-index: 10;
     border-top: 1px solid black;
     border-bottom: 1px solid black; 
     background: white;
-    min-height: 500px;
+    min-height: 500px;*/
+background: rgb(242, 171, 171);
+background: -moz-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+background: -webkit-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+background: -o-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+background: -ms-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+background: linear-gradient(100%, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+
 }
 footer {
     width: 100%;
@@ -630,5 +630,5 @@ footer {
     z-index: -1;
     bottom: 0;
     background: green;
-    height: 60px;
+    height: 300px;
 }
