@@ -4,12 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Portfolio for Nicole Flokos</title>
+    <title>Portfolio - Nicole Flokos</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,8 +58,6 @@
         </div>
         <!-- /.container -->
     </nav>
-    <div class="wrapper-parallax">
-        <div class="content">
             <!-- Intro Header -->
             <header class="intro">
                 <div class="intro-body">
@@ -75,6 +73,8 @@
                     </div>
                 </div>
             </header>
+    <div class="wrapper-parallax">
+        <div class="content">
 
             <section id="about" class="container content-section text-center">
                 <div class="row">
@@ -132,90 +132,86 @@
                     <i class="fa fa-chevron-down animated"></i>
                 </a>
             </section>
-       
 
-    <!-- A100 Section -->
-        <section id="a100" class="container content-section text-center">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>I'm an A100 Graduate
+            <section id="a100" class="container content-section text-center">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>I'm an A100 Graduate
                 <p>What does that mean?</p>
-                    </h2>
-                    <a href="http://indie-soft.com/a100/" target="_blank" alt="A100, Accelerating Connecticut's Startup Careers.">
-                        <img src="img/a100Logo.png" class="float-left a100logo" alt="A100, Accelerating Connecticut's Startup Careers." /></a>
-                    <p>
-                        <a href="http://indie-soft.com/a100/" target="_blank">Apprentice100, or A100,</a>
-                        is a tuition-free program in New Haven, Connecticut, dedicated to accelerating technology students towards their careers.
-                    </p>
-                    <p>
-                        Graduates of the program interview with and work for local startups, which fosters innovation and local businesses to grow.<br />
-                        A100 helped me start in the field of web development. For more infomation or to apply for an apprenticeship, please click <a href="http://indie-soft.com/a100/" target="_blank">here.</a>
-                    </p>
+                        </h2>
+                        <a href="http://indie-soft.com/a100/" target="_blank" alt="A100, Accelerating Connecticut's Startup Careers.">
+                            <img src="img/a100Logo.png" class="float-left a100logo" alt="A100, Accelerating Connecticut's Startup Careers." /></a>
+                        <p>
+                            <a href="http://indie-soft.com/a100/" target="_blank">Apprentice100, or A100,</a>
+                            is a tuition-free program in New Haven, Connecticut, dedicated to accelerating technology students towards their careers.
+                        </p>
+                        <p>
+                            Graduates of the program interview with and work for local startups, which fosters innovation and local businesses to grow.<br />
+                            A100 helped me start in the field of web development. For more infomation or to apply for an apprenticeship, please click <a href="http://indie-soft.com/a100/" target="_blank">here.</a>
+                        </p>
 
+                    </div>
                 </div>
-            </div>
-            <%--        <a href="#contact" class="btn btn-circle btn-padding page-scroll">
+                <%--        <a href="#contact" class="btn btn-circle btn-padding page-scroll">
                             <i class="fa fa-chevron-down animated"></i>
         </a>--%>
-        </section>
+            </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="container content-section text-center">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Get In Touch</h2>
-                    <p>
-                        Thanks for visiting my website! I'd love to hear from you about interesting projects, startups, or simply to talk.
+            </div>
+
+
+            <!-- Footer -->
+            <footer>
+                
+            <section id="contact" class="container content-section text-center">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Get In Touch</h2>
+                        <p>
+                            Thanks for visiting my website! I'd love to hear from you about interesting projects, startups, or simply to talk.
                         <a href="mailto:nicole.flokos@gmail.com?Subject=Hi,%20Nicole"><i class="fa fa-envelope fa-fw"></i></a>
-                    </p>
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+                <div class="container text-center">
 
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="mailto:nicole.flokos@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/profile/view?id=200189598&authType=name&authToken=gCym&locale=en_US&pvs=pp&trk=ppro_viewmore" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/silicarich" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silicaRich/" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/nicole.flokos" target="_blank"><i class="fa fa-facebook-square fa-fw"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com/or0genesis" target="_blank">
+                                <i class="fa fa-instagram fa-fw"></i></a>
+                        </li>
+                    </ul>
+                    <%--     <p>2014 Nicole Flokos</p>--%>
+                </div>
+            </footer>
 
+            <!-- Parallax Wrapper -->
+                </div>
 
-        </div>
-        <!-- Footer -->
-        <footer>
-            <div class="container text-center">
+            <script src="js/jquery-1.11.0.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/jquery.easing.min.js"></script>
+            <script src="js/jquery.fullPage.min.js"></script>
+            <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="mailto:nicole.flokos@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/profile/view?id=200189598&authType=name&authToken=gCym&locale=en_US&pvs=pp&trk=ppro_viewmore" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/silicarich" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/silicaRich/" target="_blank"><i class="fa fa-github fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/nicole.flokos" target="_blank"><i class="fa fa-facebook-square fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="http://instagram.com/or0genesis" target="_blank">
-                            <i class="fa fa-instagram fa-fw"></i></a>
-                    </li>
-                </ul>
-                <%--     <p>2014 Nicole Flokos</p>--%>
-            </div>
-        </footer>
-
-        <!-- Parallax Wrapper -->
-    </div>
-
-    <script src="js/jquery-1.11.0.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fullPage.min.js"></script>
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <script src="js/main.js"></script>
-
+            <script src="js/main.js"></script>
 </body>
 
 </html>
