@@ -9,7 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,21 +58,21 @@
         </div>
         <!-- /.container -->
     </nav>
-            <!-- Intro Header -->
-            <header class="intro">
-                <div class="intro-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <h1 class="brand-heading">Nicole Flokos</h1>
-                                <a href="#about" class="btn  btn-padding btn-circle page-scroll">
-                                    <i class="fa fa-chevron-down animated"></i>
-                                </a>
-                            </div>
-                        </div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Nicole Flokos</h1>
+                        <a href="#about" class="btn  btn-padding btn-circle page-scroll">
+                            <i class="fa fa-chevron-down animated"></i>
+                        </a>
                     </div>
                 </div>
-            </header>
+            </div>
+        </div>
+    </header>
     <div class="wrapper-parallax">
         <div class="content">
 
@@ -152,17 +152,14 @@
 
                     </div>
                 </div>
-                <%--        <a href="#contact" class="btn btn-circle btn-padding page-scroll">
-                            <i class="fa fa-chevron-down animated"></i>
-        </a>--%>
             </section>
 
-            </div>
+        </div>
 
 
-            <!-- Footer -->
-            <footer>
-                
+        <!-- Footer -->
+        <footer>
+
             <section id="contact" class="container content-section text-center">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -174,44 +171,38 @@
                     </div>
                 </div>
             </section>
-                <div class="container text-center">
+            <div class="container text-center">
 
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="mailto:nicole.flokos@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/profile/view?id=200189598&authType=name&authToken=gCym&locale=en_US&pvs=pp&trk=ppro_viewmore" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/silicarich" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/silicaRich/" target="_blank"><i class="fa fa-github fa-fw"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/nicole.flokos" target="_blank"><i class="fa fa-facebook-square fa-fw"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://instagram.com/or0genesis" target="_blank">
-                                <i class="fa fa-instagram fa-fw"></i></a>
-                        </li>
-                    </ul>
-                    <%--     <p>2014 Nicole Flokos</p>--%>
-                </div>
-            </footer>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="mailto:nicole.flokos@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/profile/view?id=200189598&authType=name&authToken=gCym&locale=en_US&pvs=pp&trk=ppro_viewmore" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/silicarich" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/silicaRich/" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/nicole.flokos" target="_blank"><i class="fa fa-facebook-square fa-fw"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/or0genesis" target="_blank">
+                            <i class="fa fa-instagram fa-fw"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 
-            <!-- Parallax Wrapper -->
-                </div>
+    </div><!-- Close Parallax Wrapper -->
 
-            <script src="js/jquery-1.11.0.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/jquery.easing.min.js"></script>
-            <script src="js/jquery.fullPage.min.js"></script>
-            <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-            <script src="js/main.js"></script>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

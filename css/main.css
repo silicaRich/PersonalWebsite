@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     width: 100%;
     height: 100%;
@@ -124,8 +118,8 @@ a {
     }
 
     .navbar-custom.top-nav-collapse {
-       border-bottom: 1px solid rgba(255,255,255,.3);
-       background:rgba(255,255,255,.5);
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: rgba(255,255,255,.5);
     }
 }
 
@@ -156,22 +150,19 @@ a {
             font-size: 18px;
         }
 
-@media(min-width:767px) {
-    .intro;
+@media (min-width:767px) {
+    .intro; {
+        height: 100%;
+        padding: 0;
+    }
 
-{
-    height: 100%;
-    padding: 0;
-}
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
 
-.intro .intro-body .brand-heading {
-    font-size: 100px;
-}
-
-.intro .intro-body .intro-text {
-    font-size: 25px;
-}
-
+    .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
 }
 
 .btn-circle {
@@ -232,24 +223,27 @@ a {
 }
 
 @-moz-keyframes pulse {
-    0 {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
 
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
+{
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
 
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
+50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+
 }
 
 .content-section {
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .download-section {
@@ -270,22 +264,20 @@ a {
     margin-top: 100px;
 }
 
-@media(min-width:767px) {
-    .content-section;
+@media (min-width:767px) {
 
-{
+    /*   .content-section{
     padding-top: 250px;
-}
+} */
 
-.download-section {
-    padding: 100px 0;
-}
+    .download-section {
+        padding: 100px 0;
+    }
 
-#map {
-    height: 400px;
-    margin-top: 250px;
-}
-
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
 }
 
 .btn {
@@ -297,9 +289,10 @@ a {
     transition: all .3s ease-in-out;
 }
 
-.btn-default {border: 1px solid #945763;
-color: #945763;
-background-color: transparent;
+.btn-default {
+    border: 1px solid #945763;
+    color: #945763;
+    background-color: transparent;
 }
 
     .btn-default:hover,
@@ -314,28 +307,23 @@ ul.banner-social-buttons {
     margin-top: 0;
 }
 
-@media(max-width:1199px) {
-    ul .banner-social-buttons;
 
-{
-    margin-top: 15px;
+@media (max-width:1199px) {
+    ul .banner-social-buttons {
+        margin-top: 15px;
+    }
 }
 
-}
+@media (max-width:767px) {
+    ul .banner-social-buttons li; {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
 
-@media(max-width:767px) {
-    ul .banner-social-buttons li;
-
-{
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-}
-
-ul.banner-social-buttons li:last-child {
-    margin-bottom: 0;
-}
-
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
 }
 
 /*~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~*/
@@ -370,13 +358,13 @@ img::-moz-selection {
 }
 
 body {
-webkit-tap-highlight-color: rgba(255,255,255,.2);
-background: rgb(242, 171, 171);
-background: -moz-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -webkit-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -o-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -ms-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: linear-gradient(100%, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+    background: rgb(242, 171, 171);
+    background: -moz-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -webkit-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -o-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -ms-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: linear-gradient(100%, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
 }
 
 .overlay {
@@ -472,39 +460,37 @@ img.portrait {
     border-radius: 100%;
     margin-bottom: 35px;
     -webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
-filter: grayscale(100%);
-display: inline-block;
-vertical-align: bottom;
-margin-bottom: 0;
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0;
 }
 
- img.portrait{
-
+img.portrait {
     -webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
-filter: grayscale(100%);
--webkit-transition: all .4s ease-in-out;
--moz-transition: all .4s ease-in-out;
-transition: all .4s ease-in-out;
-    }
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
 
-    img.portrait:hover{
-    
-    -webkit-filter: initial;
--moz-filter:initial;
-filter: initial;
--webkit-transition: all .4s ease-in-out;
--moz-transition: all .4s ease-in-out;
-transition: all .4s ease-in-out;
+    img.portrait:hover {
+        -webkit-filter: initial;
+        -moz-filter: initial;
+        filter: initial;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
     }
 
 
 .main-cta {
     display: block;
-margin-left: auto;
-margin-top: 20px;
-width: 227px;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 227px;
 }
 
 .about-info {
@@ -522,17 +508,19 @@ div.neuron-img {
     background-repeat: no-repeat;
     background-size: contain;
     transition: background-image 1s ease-in-out;
+    background-position: center;
 }
 
-div.neuron-img:hover {
-    background-image: url("../img/NeuronWeb1.png");
-    transition: background-image 1s ease-in-out;
-    /*background-size: 68%;
+    div.neuron-img:hover {
+        background-image: url("../img/NeuronWeb1.png");
+        transition: background-image 1s ease-in-out;
+        /*background-size: 68%;
     background-position: 50%;*/
-}
+    }
 
 
 div.compass-img {
+    background-position: center;
     height: 300px;
     background-image: url("../img/PebbleCompass1.png");
     background-repeat: no-repeat;
@@ -550,6 +538,7 @@ div.compass-img {
 }*/
 
 div.travelVR-img {
+    background-position: center;
     height: 300px;
     background-image: url("../img/TravelVR1.png");
     background-repeat: no-repeat;
@@ -557,27 +546,31 @@ div.travelVR-img {
     transition: background-image 1s ease-in-out;
 }
 
-div.travelVR-img:hover {
-    background-image: url("../img/TravelVR2.png");
-    transition: background-image 1s ease-in-out;
-    /*background-size: 68%;
+    div.travelVR-img:hover {
+        background-image: url("../img/TravelVR2.png");
+        transition: background-image 1s ease-in-out;
+        /*background-size: 68%;
     background-position: 50%;*/
-}
+    }
 
 .float-left {
-float: left;
-width: 300px;
+    float: left;
+    width: 300px;
 }
 
 img.a100-logo {
-width: 300px;
+    width: 300px;
 }
-#a100 > div > div > p:nth-child(3){
+
+#a100 > div > div > p:nth-child(3) {
     margin-bottom: 5px;
 }
+
 #a100 p {
-    text-indent:20px;
-text-align:left;}
+    text-indent: 20px;
+    text-align: left;
+}
+
 #a100 h2 p {
     text-align: center;
 }
@@ -588,7 +581,7 @@ text-align:left;}
 }
 
 .btn-padding {
-padding:4px 9px 0px 12px;
+    padding: 4px 9px 0px 12px;
 }
 
 .projects-section h3 {
@@ -597,17 +590,17 @@ padding:4px 9px 0px 12px;
 
 
 .projects-section h2 {
-margin-bottom:75px;
+    margin-bottom: 75px;
 }
 
-    .projects-section h3:first-child {
-        margin-bottom: 30px;
-    }
+.projects-section h3:first-child {
+    margin-bottom: 30px;
+}
 
 
-    /*~~~~~~~~~~~~~~ PARALLAX FOOTER ~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~ PARALLAX FOOTER ~~~~~~~~~~~*/
 
-    
+
 body {
     margin: 0;
 }
@@ -615,6 +608,7 @@ body {
 .wrapper-parallax {
     margin-bottom: 500px;
 }
+
 .content {
     /*position: relative;
     z-index: 10;
@@ -622,14 +616,14 @@ body {
     border-bottom: 1px solid black; 
     background: white;
     min-height: 500px;*/
-background: rgb(242, 171, 171);
-background: -moz-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -webkit-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -o-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: -ms-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-background: linear-gradient(100%, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
-
+    background: rgb(242, 171, 171);
+    background: -moz-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -webkit-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -o-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: -ms-linear-gradient(0, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
+    background: linear-gradient(100%, rgb(242, 171, 171) 0%, rgb(252, 249, 178) 100%);
 }
+
 footer {
     width: 100%;
     position: fixed;
@@ -637,4 +631,12 @@ footer {
     bottom: 0;
     background: url('../img/stardust.png');
     height: 500px;
+}
+
+section#contact {
+    color: #F7D0AF;
+}
+
+.fa-bars {
+    color: white;
 }
