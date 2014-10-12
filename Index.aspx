@@ -163,11 +163,16 @@
             <section id="contact" class="container content-section text-center">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Get In Touch</h2>
-                        <p>
-                            Thanks for visiting my website! I'd love to hear from you about interesting projects, startups, or simply to talk.
-                        <a href="mailto:nicole.flokos@gmail.com?Subject=Hi,%20Nicole"><i class="fa fa-envelope fa-fw"></i></a>
+                        <h2>Thanks for visiting</h2>
+                        <div class="quote-wrapper">
+                        <p class="random-quote">
+                            "The game's not big enough unless it scares you a little."</br>
+-William Riker
+
                         </p>
+<i class="fa fa-refresh load-quote rotate animate"></i></div>
+                        
+                     
                     </div>
                 </div>
             </section>
