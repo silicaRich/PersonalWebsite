@@ -507,13 +507,19 @@ div.neuron-img {
     background-image: url("../img/NeuronWeb2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    transition: background-image 1s ease-in-out;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
     background-position: center;
 }
 
     div.neuron-img:hover {
         background-image: url("../img/NeuronWeb1.png");
-        transition: background-image 1s ease-in-out;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
         /*background-size: 68%;
     background-position: 50%;*/
     }
@@ -528,15 +534,6 @@ div.compass-img {
     transition: background-image 1s ease-in-out;
 }
 
-
-
-/*div.compass-img:hover {
-    background-image: url("../img/PebbleCompass2.png");
-    transition: background-image 1s ease-in-out;
-    /*background-size: 68%;
-    background-position: 50%;
-}*/
-
 div.travelVR-img {
     background-position: center;
     height: 300px;
@@ -549,8 +546,6 @@ div.travelVR-img {
     div.travelVR-img:hover {
         background-image: url("../img/TravelVR2.png");
         transition: background-image 1s ease-in-out;
-        /*background-size: 68%;
-    background-position: 50%;*/
     }
 
 .float-left {
@@ -597,6 +592,68 @@ img.a100-logo {
     margin-bottom: 30px;
 }
 
+/* PROJECTS SLIDESHOW */
+
+
+.diy-slideshow{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+figure{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+}
+figcaption{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .8em;
+  bottom: .75em;
+  right: .35em;
+  padding: .25em;
+  color: #fff;
+  background: rgba(0,0,0, .25);
+  border-radius: 2px;
+}
+figcaption a{
+  color: #fff;
+}
+figure.show{
+  opacity: 1;
+  position: static;
+  transition: 1s opacity;
+}
+.next, .prev{
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0, .6);
+  top: 50%;
+  z-index: 1;
+  font-size: 2em;
+  margin-top: -.75em;
+  opacity: .3;
+  user-select: none;
+}
+.next:hover, .prev:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+.next{
+  right: 0;
+  padding: 10px 5px 15px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.prev{
+  left: 0;
+  padding: 10px 10px 15px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* END PROJECTS SLIDESHOW */
+
 
 /*~~~~~~~~~~~~~~ PARALLAX FOOTER ~~~~~~~~~~~*/
 
@@ -629,7 +686,7 @@ footer {
     position: fixed;
     z-index: -1;
     bottom: 0;
-    background: url('../img/stardust.png');
+    background: url('../img/space.jpg');
     height: 500px;
 }
 
@@ -640,41 +697,50 @@ section#contact {
 .fa-bars {
     color: white;
 }
+
 .top-nav-collapse > li > a {
-    
-color: #464646;
+    color: #464646;
 }
 
-.rotate{
+.rotate {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
     transition-duration: 0.8s;
-     
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     -o-transition-property: -o-transform;
     transition-property: transform;
-     
-    overflow:hidden;
- 
-    }  
- 
-.rotate:hover  
-{
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
+    overflow: hidden;
 }
+
+    .rotate:hover {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
 
 .load-quote {
     font-size: 40px;
-
-vertical-align: top;
-margin: 0 0 0 20px;
+    vertical-align: top;
+    margin: 0 0 0 20px;
 }
 
 p.random-quote {
     display: inline-block;
-    width:300px;
+    width: 300px;
+    height: 100px;
+}
+
+.projects-section i {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.top-nav-collapse li a, .top-nav-collapse .navbar-brand {
+    color: #464646;
 }

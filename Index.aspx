@@ -84,7 +84,7 @@
                             Computer Scientist from <a href="http://www.SouthernCT.edu" target="_blank">SCSU</a><br />
                             Front end web developer @ <a href="http://drinkcaffeine.com" target="_blank">drinkcaffeine</a><br />
                             Software engineer in the making<br />
-                            Loves hackathons & all things tech
+                            Motorcyclist, yogi, hackathon hacker
                 <a class="btn main-cta btn-default page-scroll" a href="#projects" role="button">See Projects</a>
                         </p>
                         <img src="img/nicole-portrait.jpg" class="portrait" />
@@ -100,11 +100,19 @@
 
                             <div class="col-md-4">
                                 <h3>NEURONWeb</h3>
-                                <div class="neuron-img">
+                                <div class="diy-slideshow">
+                                    <figure class="show">
+                                        <img src="img/NeuronWeb1.png" width="100%" />
+                                    </figure>
+                                    <figure>
+                                        <img src="img/NeuronWeb2.png" width="100%" />
+                                    </figure>
+                                    <span class="prev">&laquo;</span>
+                                    <span class="next">&raquo;</span>
                                 </div>
-                                <p>
-                                    <p>Created dynamic & entendable jQueryUI interface for <a target="_blank" href="http://www.neuron.yale.edu/neuron/">NEURON</a>, a simulator for neurons and networks.</p>
-                                </p>
+                                <%--                                <div class="neuron-img">
+                                </div>--%>
+                                <p>Created dynamic & entendable jQueryUI interface for <a target="_blank" href="http://www.neuron.yale.edu/neuron/">NEURON</a>, a simulator for neurons and networks.</p>
                             </div>
                             <div class="col-md-4">
                                 <h3>Pebble Compass</h3>
@@ -113,9 +121,9 @@
                                 <p>
                                     App transfers compass information from Android phone to a Pebble smartwatch.
                             <br />
-                                    <a href="https://play.google.com/store/apps/details?id=pebblecompass.example.app">Play Store</a>
-                                    <a href="https://github.com/silicaRich/pebble-compass">GitHub Repo</a>
-                                    <a href="https://apps.getpebble.com/applications/53a799768eaa2a00040000b3">Pebble Store</a>
+                                    <a href="https://play.google.com/store/apps/details?id=pebblecompass.example.app"><i class="fa fa-android"></i></a>
+                                    <a href="https://github.com/silicaRich/pebble-compass"><i class="fa fa-github-alt"></i></a>
+                                    <a href="https://apps.getpebble.com/applications/53a799768eaa2a00040000b3"><i class="fa fa-clock-o"></i></a>
                                 </p>
                             </div>
                             <div class="col-md-4">
@@ -165,14 +173,15 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <h2>Thanks for visiting</h2>
                         <div class="quote-wrapper">
-                        <p class="random-quote">
-                            "The game's not big enough unless it scares you a little."</br>
+                            <p class="random-quote">
+                                "The game's not big enough unless it scares you a little."
 -William Riker
 
-                        </p>
-<i class="fa fa-refresh load-quote rotate animate"></i></div>
-                        
-                     
+                            </p>
+                            <i class="fa fa-refresh load-quote rotate animate"></i>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
@@ -202,7 +211,8 @@
             </div>
         </footer>
 
-    </div><!-- Close Parallax Wrapper -->
+    </div>
+    <!-- Close Parallax Wrapper -->
 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.min.js"></script>

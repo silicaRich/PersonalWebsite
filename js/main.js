@@ -33,11 +33,12 @@ $('.navbar-collapse ul li a').click(function () {
 var quotes = [
     '"If it ain\'t fun, don\'t do it"'
     , '"The game\'s not big enough unless it scares you a little." -William Riker'
-    , '"Somewhere, something incredible is waiting to be known." -Carl Sagan'
-    , '"Get out of your own way\"'
+    , '"Get out of your own way.\"'
     , '"Sucking at something is the first step to being sorta good at something." -Jake the Dog'
-    , '"Yeah, I pretty much never sit by the pool anymore" -Marco Polo '
-    , '"Don\'t compare your beginning to someone else\'s middle"'
+    , '"Yeah, I pretty much never sit by the pool anymore." -Marco Polo '
+    , '"Don\'t compare your beginning to someone else\'s middle."'
+    , '"We are a way for the universe to know itself." -Carl Sagan'
+    , '"Life would be boring if it wasn\'t difficult."'
 ];
 
 $('p.random-quote').text(getQuote());
@@ -51,4 +52,43 @@ $('.load-quote').click(function () {
 
 function getQuote() {
     return quotes[Math.floor(Math.random() * (quotes.length - 0) + 0)];
+}
+
+
+/* PROJECTS SLIDESHOW */
+
+var counter = 0, // to keep track of current slide
+    $items = $('.diy-slideshow figure'), // a collection of all of the slides, caching for performance
+    numItems = $items.length; // total number of slides
+
+// this function is what cycles the slides, showing the next or previous slide and hiding all the others
+var showCurrent = function () {
+    var itemToShow = Math.abs(counter % numItems);// uses remainder (aka modulo) operator to get the actual index of the element to show  
+
+    $items.removeClass('show'); // remove .show from whichever element currently has it
+    $items.eq(itemToShow).addClass('show');
+};
+
+// add click events to prev & next buttons 
+$('.next').on('click', function () {
+    counter++;
+    showCurrent();
+});
+$('.prev').on('click', function () {
+    counter--;
+    showCurrent();
+});
+
+// if touch events are supported then add swipe interactions using TouchSwipe https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
+if ('ontouchstart' in window) {
+    $('.diy-slideshow').swipe({
+        swipeLeft: function () {
+            counter++;
+            showCurrent();
+        },
+        swipeRight: function () {
+            counter--;
+            showCurrent();
+        }
+    });
 }
