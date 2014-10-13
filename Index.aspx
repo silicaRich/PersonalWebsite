@@ -100,10 +100,10 @@
 
                             <div class="col-md-4">
                                 <h3>NEURONWeb</h3>
-                                <div class="img-wrap">
-                                    <img src="img/NeuronWeb1.png" class="bottom" /><img src="img/NeuronWeb2.png" class="top" />
-                                </div>
-                                    <p>Created dynamic & entendable jQueryUI interface for <a target="_blank" href="http://www.neuron.yale.edu/neuron/">NEURON</a>, a simulator for neurons and networks.</p>
+                                
+                                <div class="neuron-img">
+                                </div><p>Worked on dynamic & entendable jQueryUI interface for <a target="_blank" href="http://www.neuron.yale.edu/neuron/">NEURON</a>, a simulator for neurons and networks.</p>
+                                
                             </div>
                             <div class="col-md-4">
                                 <h3>Pebble Compass</h3>
@@ -113,7 +113,7 @@
                                     App transfers compass information from Android phone to a Pebble smartwatch.
                             <br />
                                     <a href="https://play.google.com/store/apps/details?id=pebblecompass.example.app"><i class="fa fa-android"></i></a>
-                                    <a href="https://github.com/silicaRich/pebble-compass"  ><i class="fa fa-github-alt"></i></a>
+                                    <a href="https://github.com/silicaRich/pebble-compass"><i class="fa fa-github-alt"></i></a>
                                     <a href="https://apps.getpebble.com/applications/53a799768eaa2a00040000b3"><i class="fa fa-clock-o"></i></a>
                                 </p>
                             </div>
@@ -121,7 +121,7 @@
                                 <h3>TravelVR</h3>
                                 <div class="travelVR-img">
                                 </div>
-                                <p>Built using Unity and Oculus DK, TravelVR allows the user to freely roam around any location on Google Maps Streetview in 360 degrees.</p>
+                                <p>Built using Unity and Oculus DK, TravelVR allows the user to freely roam around any location on Google Maps Streetview in 360&deg;.</p>
                                 <p><a class="btn btn-default" href="http://challengepost.com/software/travelvr" role="button">Challengepost Submission &raquo;</a></p>
                             </div>
                         </div>
@@ -164,14 +164,15 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <h2>Thanks for visiting</h2>
                         <div class="quote-wrapper">
-                        <p class="random-quote">
-                            "The game's not big enough unless it scares you a little."
+                            <p class="random-quote">
+                                "The game's not big enough unless it scares you a little."
 -William Riker
 
-                        </p>
-<i class="fa fa-refresh load-quote rotate animate"></i></div>
-                        
-                     
+                            </p>
+                            <i class="fa fa-refresh load-quote rotate animate"></i>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
@@ -201,7 +202,8 @@
             </div>
         </footer>
 
-    </div><!-- Close Parallax Wrapper -->
+    </div>
+    <!-- Close Parallax Wrapper -->
 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -507,21 +507,13 @@ div.neuron-img {
     background-image: url("../img/NeuronWeb2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: background-image 300ms ease-in-out;
     background-position: center;
 }
 
     div.neuron-img:hover {
         background-image: url("../img/NeuronWeb1.png");
-        -webkit-transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        transition: all 1s ease;
-        /*background-size: 68%;
-    background-position: 50%;*/
+    transition: background-image 300ms ease-in-out;
     }
 
 
@@ -531,7 +523,7 @@ div.compass-img {
     background-image: url("../img/PebbleCompass1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    transition: background-image 1s ease-in-out;
+    transition: background-image 300ms ease-in-out;
 }
 
 div.travelVR-img {
@@ -540,12 +532,12 @@ div.travelVR-img {
     background-image: url("../img/TravelVR1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    transition: background-image 1s ease-in-out;
+    transition: background-image 300ms ease-in-out;
 }
 
     div.travelVR-img:hover {
         background-image: url("../img/TravelVR2.png");
-        transition: background-image 1s ease-in-out;
+    transition: background-image 300ms ease-in-out;
     }
 
 .float-left {
@@ -594,7 +586,7 @@ img.a100-logo {
 
 /* PROJECTS SLIDESHOW */
 
-.img-wrap{
+/*.img-wrap{
   position:relative;
   height:auto;
   width:300px;
@@ -613,7 +605,8 @@ img.a100-logo {
 
 .img-wrap img.top:hover {
   opacity:0;
-}
+}*/
+
 /* END PROJECTS SLIDESHOW */
 
 
