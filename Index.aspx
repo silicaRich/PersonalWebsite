@@ -50,7 +50,7 @@
                         <a class="page-scroll" href="#a100">A100</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#thanks">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -204,7 +204,7 @@
 
     </div>
     <!-- Close Parallax Wrapper -->
-
+    <div id="thanks"></div>
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
